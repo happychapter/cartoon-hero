@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: lightskyblue;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1, h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 95px;
+}
+
+header h1{
+    color: white;
+    }
+
+header img{
+    border-radius: 170px;
+    width: 250px;
+    border: solid 10px #001B2C;
+} 
+
+main{
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 50px;
+    color: #001B2C;
+    text-align: center;
+    margin: 40px 0 10px; 
+}
+
+a{ 
+    color: #001B2C;
+}
+a:hover{
+    color: white;
+    background-color:#001B2C;
+}
+
+footer{
+    background-color: lightskyblue;
+    text-align: center;
+    color: white
+}
+
+footer a{
+    color: white
+}
+
+p.caption{
+    color: #A9C4D5;   
+    font-style: italic; 
+    font-size; 5px;
+    text-align: center;
+    margin-top: 0; 
+}
