@@ -4,14 +4,13 @@ body{
     font-size: 20px;
 }
 
-/* header styles */
-
 header{
     background-color: lightskyblue;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+       text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
+
 
 h1, h2{
     font-family: 'Patrick Hand', cursive;
@@ -20,11 +19,13 @@ h1, h2{
 
 header h1{
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
     }
 
 header img{
     border-radius: 170px;
-    width: 250px;
+    width: 300px;
     border: solid 10px #001B2C;
 } 
 
@@ -38,10 +39,19 @@ main img{
     max-width: 100%;
 }
 
+blockquote{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-style: italic; 
+    font-size: 25px;
+    margin: 30px;
+    color: lightskyblue;
+
+}
+
 h2{
     font-size: 50px;
     color: #001B2C;
-    text-align: center;
     margin: 40px 0 10px; 
 }
 
@@ -53,10 +63,22 @@ a:hover{
     background-color:#001B2C;
 }
 
+iframe{
+    display: block;
+    width: 560px;
+    margin: auto;
+}
+
+hr.dotted {
+    border-top: 3px dotted #001B2C;
+  }
+
 footer{
     background-color: lightskyblue;
     text-align: center;
-    color: white
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 footer a{
@@ -66,7 +88,14 @@ footer a{
 p.caption{
     color: #A9C4D5;   
     font-style: italic; 
-    font-size; 5px;
+    font-size: 15px;
     text-align: center;
     margin-top: 0; 
+}
+
+p.footer{
+    color: white;   
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10; 
 }
